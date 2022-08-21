@@ -1,0 +1,12 @@
+node_modules
+dist
+logs
+ormconfig.json
+launch.jsons
+**/.env
+ormconfig.env
+.vs
+package-lock.json
+yarn.lock
+.DS_Store
+.idea
