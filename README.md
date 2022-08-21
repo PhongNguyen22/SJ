@@ -33,8 +33,6 @@
 
 ## Installation
 
-Use Node version >= 12 and copy file .env.example to .env
-
 ```bash
 $ npm install
 ```
@@ -55,7 +53,8 @@ $ npm run start:prod
 ```json
 Use postman with method POST to call the path localhost:3000/device/create
 Payloads example:
-1. {
+1. 
+{
   "deviceId": "ibm-878A66",
   "deviceType": "computer1.0.0",
   "deviceName": "VN1-1-3",
@@ -71,7 +70,8 @@ Payloads example:
   },
   "timestamp": 1629369697
 }
-2. {
+2. 
+{
   "deviceId": "ibm-00976A",
   "deviceType": "computer1.0.0",
   "deviceName": "VN1-1-4",
