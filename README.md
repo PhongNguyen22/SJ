@@ -26,6 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Requirements
+- Node >= 12
+- Postgresql >= 11
+- Copy file .env.example paste as .env
+
 ## Installation
 
 Use Node version >= 12 and copy file .env.example to .env
@@ -47,6 +52,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+```json
 Use postman with method POST to call the path localhost:3000/device/create
 Payloads example:
 1. {
@@ -79,6 +85,7 @@ Payloads example:
   },
   "timestamp": 1629629040
 }
+```
 
 ## Test
 
